@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -43,7 +44,10 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {skill}
+            <div className=" flex flex-row gap-x-1">
+              <Image src={skill.logo} height={50} width={50} alt="" className="h-7 w-7 rounded-xl" />
+              {skill.name}
+            </div>
           </motion.li>
         ))}
       </ul>

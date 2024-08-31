@@ -102,24 +102,96 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Express.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
-  "Redux",
-  "MySQL",
-  "Python",
-  "Django Rest Freamework",
-  "Golang",
-  "Java",
-  "Docker",
-  "GitHub Actions",
-  "Redis",
+  {
+    name: "NextJS ",
+    logo: "/icons/next.png"
+  },
+  {
+    name: "Reactjs",
+    logo: "/icons/react.png",
+  },
+  {
+    name: "Redux",
+    logo: "/icons/redux.png",
+  },
+  {
+    name: "TailwindCSS",
+    logo: "/icons/tailwind.png",
+  },
+  {
+    name: "JavaScript",
+    logo: "/icons/js.png",
+  },
+  {
+    name: "TypeScript",
+    logo: "/icons/ts.png",
+  },
+  {
+    name: "ExpressJS",
+    logo: "/icons/express.png",
+  }, {
+    name: "NodeJs",
+    logo: "/icons/node.png",
+  },
+   {
+    name: "Django Rest Freamework",
+    logo: "/icons/drf.png",
+  },
+  {
+    name: "FastAPI",
+    logo: "/icons/fastapi.png",
+  },
+  {
+    name: "MongoDB",
+    logo: "/icons/mongo.png",
+  },
+  {
+    name: "MySQL",
+    logo: "/icons/mysql.png",
+  },
+  {
+    name: "Redis",
+    logo: "/icons/redis.png",
+  },
+  {
+    name: "HTML",
+    logo: "/icons/html.png"
+  },
+  {
+    name: "CSS",
+    logo: "/icons/css.png"
+  },
+  {
+    name: "Python",
+    logo: "/icons/python.jpeg"
+  },
+  {
+    name: "Java",
+    logo: "/icons/java.png",
+  },
+  {
+    name: "Golang",
+    logo: "/icons/go.png",
+  },
+
+  {
+    name: "Docker",
+    logo: "/icons/docker.png",
+  },
+
+  {
+    name: "Git",
+    logo: "/icons/git.png",
+  },
+  {
+    name: "Github Actions",
+    logo: "/icons/githubaction.png",
+  },
+  {
+    name: "GraphQL",
+    logo: "/icons/GraphQL.png",
+  }, {
+    name: "Ngnix",
+    logo: "/icons/ngnix.png",
+  },
 ] as const;
