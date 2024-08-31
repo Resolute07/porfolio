@@ -6,6 +6,7 @@ import movieVerse from "@/public/movieverse.png";
 import apiwrapper from "@/public/apiwrapper.png";
 import music from "@/public/music.png";
 import nexi from "@/public/nexi.png";
+import { SiFreelancer } from "react-icons/si";
 
 export const links = [
   {
@@ -36,28 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "LFX Mentee at Cloudforet",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Acquired hands-on experience in Kubernetes, ArgoCD, GitHub Actions, Protocol Buffers, and gRPC through mentorship at Cloudforet, enhancing proficiency in container orchestration and continuous delivery. Collaborated on plugin development with mentors and peers, creating innovative solutions to improve functionality and user experience.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Nov, 2023 - Feb, 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Freelancing",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I had Completed two freelance projects, one entailed developing a Next.js website, while the other involved crafting a React frontend coupled with a Golang backend application, meeting client specifications and deadlines.",
+    icon: React.createElement(SiFreelancer),
+    date: "Feb, 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Frontend Intern at SetMyCareer",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "As a Frontend Intern at SetMyCareer, I developed and maintained web application using React and Next.js. I collaborated with cross-functional teams, implemented new features, fixed bugs, and ensured responsive, high-quality user interfaces across various devices and platforms.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Jun, 2024 - present",
   },
 ] as const;
 
@@ -68,8 +69,8 @@ export const projectsData = [
       "It is a video calling web application. It has features like video calling,upcoming/previous call logs, personal rooms and recording.",
     tags: ["Next.js", "React.js", "Tailwind", "Stream API"],
     imageUrl: nexi,
-    visitURL: "https://react-icons.github.io/react-icons/search/#q=share",
-    githubURL: "https://react-icons.github.io/react-icons/search/#q=share",
+    visitURL: "https://nexi-green.vercel.app/",
+    githubURL: "https://github.com/arup1221/Nexi",
   },
   {
     title: "Music Academy Website",
@@ -77,17 +78,17 @@ export const projectsData = [
       "It is a responsive music academy website built using Next.js, Aceternity-UI, and other industry-standard technologies.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Aceternity-UI"],
     imageUrl: music,
-    visitURL: "https://react-icons.github.io/react-icons/search/#q=share",
-    githubURL: "https://react-icons.github.io/react-icons/search/#q=share",
+    visitURL: "https://music-academy-azhx.vercel.app/",
+    githubURL: "https://github.com/arup1221/MusicAcademy",
   },
   {
     title: "MovieVerse",
     description:
       "It is responsive movie/series review website built using React, Tailwind and FireBase as backend.Here any user come login and give review to any movie/series or add any movie/series.",
-    tags: ["React", "Next.js",  "Tailwind", "FireBase"],
+    tags: ["React", "Next.js", "Tailwind", "FireBase"],
     imageUrl: movieVerse,
-    visitURL: "https://react-icons.github.io/react-icons/search/#q=share",
-    githubURL: "https://react-icons.github.io/react-icons/search/#q=share",
+    visitURL: "https://movieverse-one.vercel.app/",
+    githubURL: "https://github.com/arup1221/movieverse",
   },
   {
     title: "Interactsh Api Wrapper",
@@ -96,7 +97,7 @@ export const projectsData = [
     tags: ["Python", "FastAPI", "Docker", "GoLang"],
     imageUrl: apiwrapper,
     visitURL: "",
-    githubURL: "https://react-icons.github.io/react-icons/search/#q=share",
+    githubURL: "https://github.com/arup1221/api-wrapper",
   },
 ] as const;
 
