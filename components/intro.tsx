@@ -10,6 +10,12 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { SiLeetcode } from "react-icons/si";
+import { Arima } from 'next/font/google';
+
+const arima = Arima({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -59,15 +65,17 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className={`mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl ${arima.className}`}
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Arup Gope.</span> I'm a{" "}
+        <span>Hello, I'm </span>
+        <span className="font-bold">Arup Gope.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span>. I enjoy
         building <span className="italic">websites</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
+
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
