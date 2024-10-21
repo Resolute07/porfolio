@@ -2,10 +2,21 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import movieVerse from "@/public/movieverse.png";
-import apiwrapper from "@/public/apiwrapper.png";
-import music from "@/public/music.png";
-import nexi from "@/public/nexi.png";
+import movieVerse from "@/public/images/movieverse.png";
+import apiwrapper from "@/public/images/apiwrapper.png";
+import music from "@/public/images/music.png";
+import nexi from "@/public/images/nexi.png";
+import gogrpc from "@/public/images/gogrpc.png";
+import currency from "@/public/images/currency.png";
+import carbide from "@/public/images/carbide.png";
+import imdb from "@/public/images/imdb.png";
+import lightning from "@/public/images/lightning.png";
+import password from "@/public/images/password.png";
+import todo from "@/public/images/Todo.png";
+import device from "@/public/images/device.png";
+import lift from "@/public/images/lift.png";
+
+
 import { SiFreelancer } from "react-icons/si";
 
 export const links = [
@@ -99,7 +110,93 @@ export const projectsData = [
     visitURL: "",
     githubURL: "https://github.com/arup1221/api-wrapper",
   },
+  {
+    title: "Go-gRPC",
+    description:
+      "Created a gRPC service using GoLang and Protobuf, enabling efficient communication between microservices. This implementation supports high-performance applications, ensuring low-latency interactions and robust data handling.",
+    tags: ["Golang", "gRPC", "Protobuf"],
+    imageUrl: gogrpc,
+    visitURL: "",
+    githubURL: "https://github.com/arup1221/go-gRPC",
+  },
+  {
+    title: "Device Tracker",
+    description:
+      "The Realtime Device Tracker is an application that uses Node.js, Socket.io, and Express.js to track device locations in real time, providing users with an interactive map interface for easy navigation.",
+    tags: ["Node.js", "Socket.io", "Express.js"],
+    imageUrl: device,
+    visitURL: "https://devicetracker-hlod.onrender.com/",
+    githubURL: "https://github.com/arup1221/DeviceTracker",
+  },
+  {
+    title: "Currency Converter",
+    description:
+      "Developed a simple yet effective currency converter application using React and Tailwind CSS. It enables users to convert between various currencies easily and quickly, ensuring accurate real-time rates.",
+    tags: ["ReactJs", "Tailwind CSS"],
+    imageUrl: currency,
+    visitURL: "https://currency-converter-indol-two.vercel.app/",
+    githubURL: "https://github.com/arup1221/Currency-Converter",
+  },
+  {
+    title: "Todo Application",
+    description:
+      "This Todo Application allows users to manage their tasks efficiently. Built with React.js and Tailwind CSS, it features local storage support to ensure tasks persist across sessions for better productivity.",
+    tags: ["ReactJs", "Tailwind CSS"],
+    imageUrl: todo,
+    visitURL: "https://todo-local-storage-sandy.vercel.app/",
+    githubURL: "https://github.com/arup1221/TodoLocalStorage",
+  },
+  {
+    title: "Password Generator",
+    description:
+      "A Password Generator built using React.js and Tailwind CSS that allows users to create strong, random passwords. This tool emphasizes security and user-friendly design for effortless password management.",
+    tags: ["ReactJs", "Tailwind CSS"],
+    imageUrl: password,
+    visitURL: "https://password-generator-delta-gules.vercel.app/",
+    githubURL: "https://github.com/arup1221/password_generator",
+  },
+  {
+    title: "IMDB API Clone",
+    description:
+      "The IMDB API Clone is a movie database API built with Django Rest Framework. It provides functionality similar to IMDB, allowing users to search for movies and retrieve detailed information easily.",
+    tags: ["Python", "Django Rest Framework"],
+    imageUrl: imdb,
+    visitURL: "",
+    githubURL: "https://github.com/arup1221/movieapi",
+  },
+  {
+    title: "Lift Model",
+    description:
+      "The Lift Model is a simple web application created with HTML, CSS, and JavaScript. It simulates a lift's operations, providing users with insights into how lifts function and manage requests effectively.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: lift,
+    visitURL: "https://arup1221.github.io/Lift-/",
+    githubURL: "https://github.com/arup1221/Lift-",
+  },
+  {
+    title: "Freelance Project 1",
+    description:
+      "Here I  created a landing page using NextJs, Shadcn and other technologies.",
+    tags: ["NextJs", "Framer Motion", "Shadcn", "Tailwind css"],
+    imageUrl: carbide,
+    visitURL: "https://carbide-tools-sro.vercel.app/",
+    githubURL: "",
+  },
+  {
+    title: "Freelance Project 2",
+    description:
+      "Here I created a landing page using NextJs, Shadcn and other technologies.",
+    tags: ["NextJs", "Framer Motion", "Shadcn", "Tailwind css"],
+    imageUrl: lightning,
+    visitURL: "https://lightning-two.vercel.app/",
+    githubURL: "",
+  },
+
+
 ] as const;
+
+
+
 
 export const skillsData = [
   {
@@ -133,7 +230,7 @@ export const skillsData = [
     name: "NodeJs",
     logo: "/icons/node.png",
   },
-   {
+  {
     name: "Django Rest Freamework",
     logo: "/icons/drf.png",
   },
