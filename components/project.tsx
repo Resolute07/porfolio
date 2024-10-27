@@ -61,7 +61,7 @@ export default function Project({
 
 
             </a>
-            <a href={githubURL}><button className="flex flex-row bg-black/[0.7] px-3 py-1 text-[0.9rem]  tracking-wider text-white rounded-full dark:text-white/80">Github <IoLogoGithub className="mt-1 ml-1" /></button></a>
+            <a href={githubURL} className={`${!githubURL ? 'hidden' : ''}`}><button className="flex flex-row bg-black/[0.7] px-3 py-1 text-[0.9rem]  tracking-wider text-white rounded-full dark:text-white/80">Github <IoLogoGithub className="mt-1 ml-1" /></button></a>
           </div>
 
         </div>
