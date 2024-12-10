@@ -69,7 +69,7 @@ export const experiencesData = [
     description:
       "As a Frontend Intern at SetMyCareer, I developed and maintained web application using React and Next.js. I collaborated with cross-functional teams, implemented new features, fixed bugs, and ensured responsive, high-quality user interfaces across various devices and platforms.",
     icon: React.createElement(FaReact),
-    date: "Jun, 2024 - present",
+    date: "Jun, 2024 - Sept, 2024",
   },
 ] as const;
 
