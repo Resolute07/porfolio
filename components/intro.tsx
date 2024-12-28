@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiUpwork } from "react-icons/si";
 import { Arima } from 'next/font/google';
 
 const arima = Arima({
@@ -38,7 +38,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/arup.jpg"
+              src="/utkarsh.jpg"
               alt="Ricardo portrait"
               width="200"
               height="200"
@@ -122,10 +122,10 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://leetcode.com/ARUP1221/"
+          href="https://www.upwork.com/freelancers/~01119f6f0947b6a20b"
           target="_blank"
         >
-          <SiLeetcode />
+          <SiUpwork />
         </a>
       </motion.div>
     </section>
