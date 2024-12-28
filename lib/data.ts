@@ -1,20 +1,11 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+
 import cybernous from "@/public/images/cybernous.jpeg";
 import gridx from "@/public/images/gridx.png";
 import gostar from "@/public/images/gostar.png";
 import Krooze from "@/public/images/krooze.png";
-import gogrpc from "@/public/images/gogrpc.png";
-import currency from "@/public/images/currency.png";
-import carbide from "@/public/images/carbide.png";
-import imdb from "@/public/images/imdb.png";
-import lightning from "@/public/images/lightning.png";
-import password from "@/public/images/password.png";
-import todo from "@/public/images/Todo.png";
-import device from "@/public/images/device.png";
-import lift from "@/public/images/lift.png";
+
+
 
 
 import { SiFirebase, SiFlutter, SiFreelancer, SiUpwork } from "react-icons/si";
