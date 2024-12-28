@@ -21,10 +21,10 @@ export default function About() {
       
 
       <p className="mb-5">
-      Hi, I'm Arup Gope, a final-year undergraduate at Sir M. Visvesvaraya Institute of Technology with a passion for web development. Currently, I'm a <span className="font-bold">Frontend Intern</span>  at SetMyCareer, where I enjoy tackling complex problems and bringing ideas to life. My core stack includes <span className="italic">React, Next.js, Node.js,</span> and <span className="italic">MongoDB</span> , with additional expertise in Django Rest Framework, Java, TypeScript, Express.js, Tailwind CSS, and Go. I've successfully completed <span className="font-bold">two freelance projects</span>—a Next.js web application and a full-stack app using ReactJS and Golang.
+      Hi, I'm Utkarsh, a seasoned freelancer final-year undergraduate at Sir M. Visvesvaraya Institute of Technology with a passion for Mobile App development. Currently, I'm a <span className="font-bold">SDE Intern</span>  at GridxEnergy, where I enjoy tackling complex problems and bringing ideas to life. My core stack includes <span className="italic">Flutter, Djnago, Firebase,</span> and <span className="italic">Postgress SQL</span> , with additional expertise in Django Rest Framework, Java, Google cloud , and AWS. I've successfully completed <span className="font-bold">more that 5 freelance projects</span>
       </p>
       <p>
-      I've also completed the <span className="font-bold">LFX Mentorship program at Cloudforet</span>, gaining hands-on experience with <span className="italic">Docker, Kubernetes, gRPC, Protocol Buffer, ArgoCD,</span> and <span className="italic"> GitHub Actions</span>.  As a lifelong learner and tech enthusiast, I'm always exploring new technologies and seeking opportunities to grow. I'm currently looking for a full-time software developer role where I can contribute to impactful projects and collaborate with professionals.
+      I've also completed  <span className="font-bold">3 internships</span>, gaining hands-on experience with <span className="italic">Flutter and Django</span> and <span className="italic"> Firebase</span>.  As a lifelong learner and tech enthusiast, I'm always exploring new technologies and seeking opportunities to grow. I'm currently looking for a full-time software developer role where I can contribute to impactful projects and collaborate with professionals.
       </p>
     </motion.section>
   );

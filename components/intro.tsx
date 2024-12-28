@@ -70,10 +70,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span>Hello, I'm </span>
-        <span className="font-bold">Arup Gope.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span>. I enjoy
-        building <span className="italic">websites</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Utkarsh.</span> I'm a{" "}
+        <span className="font-bold">Full-stack developer</span>. I enjoy
+        building <span className="italic">Mobile Apps</span>.
       </motion.h1>
 
 
@@ -108,7 +107,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/arup-gope/"
+          href="https://www.linkedin.com/in/utk0702/"
           target="_blank"
         >
           <BsLinkedin />
@@ -116,7 +115,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/arup1221"
+          href="https://github.com/resolute07"
           target="_blank"
         >
           <FaGithubSquare />
