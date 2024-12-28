@@ -81,6 +81,7 @@ export const projectsData = [
     tags: ["Flutter", "Django", "Postgress", "REST","Maps","goecodeing"],
     imageUrl: Krooze,
     visitURL: "https://apps.apple.com/in/app/krooze-driver/id6572310093",
+    githubURL:""
     
   },
   {
@@ -90,7 +91,7 @@ export const projectsData = [
     tags: ["Flutter", "Firebase", "Maps", "Google cloud", "Geocoding"],
     imageUrl: gostar,
     visitURL: "https://apps.apple.com/in/app/gostar-taxi/id6504448754",
-    
+    githubURL:""
   },
   {
     title: "Cybernous",
@@ -99,7 +100,7 @@ export const projectsData = [
     tags: ["Flutter", "Firebase","Oauth","razorpay","sanity"],
     imageUrl: cybernous,
     visitURL: "https://cyb-lms.web.app/",
-    
+    githubURL:""
   },
   {
     title: "GridxEnergy",
@@ -108,6 +109,7 @@ export const projectsData = [
     tags: ["Flutter", "FireBase", "Cloud Funciton", "Thingsboard" ,"BLE"],
     imageUrl: gridx,
     visitURL: "https://gridxenergy.in/",
+    githubURL:""
   },
   // {
   //   title: "Go-gRPC",
